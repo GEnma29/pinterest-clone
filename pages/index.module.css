@@ -1,0 +1,104 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow:hidden;
+    
+}
+.ContainerText{
+    margin-top: 2rem;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+    height: 200vh;
+    width: 160%;
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+
+}
+.colum1{
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    margin-top: 100px;
+
+}
+.colum2{
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    margin-top: 180px;
+
+}
+.colum3{
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    margin-top: 240px;
+
+}
+.colum4{
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    margin-top: 180px;
+
+}
+.colum5{
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    margin-top: 100px;
+
+}
+.colum6{
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    margin-top: 100px;
+
+}
+.item{
+    margin: 1rem .4rem .4rem .4rem;
+    display: flex;
+    height: 350px;
+    width: 236px;
+    background-color:  #e60023;
+    border-radius: 25px;
+}
+.Scrolldown{
+    position: absolute;
+    font-size: 4rem;
+    margin-top: 480px;
+    animation: boing 1.2s infinite;
+}
+@keyframes boing {
+    0% 
+    {
+        margin-top: 440px;
+        opacity: 0;
+      
+    }
+    25% 
+    {
+        margin-top: 460px;
+        opacity: 1;
+    }
+    100% 
+    {
+        margin-top: 500px;
+        opacity: 0;
+    }
+  }
